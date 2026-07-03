@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SS Mobiles</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ffe5b4,#ffd6e8,#e8d4ff);
+}
+
+/* Header */
+header{
+    background:linear-gradient(90deg,orange,purple,pink);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.logo{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:white;
+    color:purple;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:35px;
+    font-weight:bold;
+    margin-right:15px;
+}
+
+header h1{
+    font-size:38px;
+}
+
+/* Navigation */
+nav{
+    background:purple;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+/* Main Content */
+.container{
+    text-align:center;
+    padding:40px;
+}
+
+.container img{
+    width:280px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+    margin-bottom:25px;
+}
+
+.offer{
+    background:white;
+    display:inline-block;
+    padding:25px 40px;
+    border-radius:20px;
+    box-shadow:0 0 15px gray;
+}
+
+.offer h2{
+    color:orange;
+    font-size:36px;
+}
+
+.offer h3{
+    color:purple;
+    margin-top:15px;
+    font-size:28px;
+}
+
+.offer p{
+    font-size:22px;
+    margin-top:10px;
+    color:#444;
+    font-weight:bold;
+}
+
+.colors{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:15px;
+}
+
+.color{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    border:2px solid black;
+}
+
+.black{background:black;}
+.blue{background:royalblue;}
+.gold{background:gold;}
+.red{background:red;}
+
+/* Sections */
+section{
+    padding:40px;
+    text-align:center;
+}
+
+section h2{
+    color:purple;
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    background:linear-gradient(90deg,purple,pink,orange);
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+    line-height:1.8;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <div class="logo">SS</div>
+    <h1>SS Mobiles</h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#offer">Offer</a>
+    <a href="#team">Our Team</a>
+</nav>
+
+<!-- Main Content -->
+<div class="container">
+
+    <!-- Mobile Image -->
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600"
+         alt="Mobile Phone">
+
+    <div class="offer" id="offer">
+        <h1>🎉 Offer: 30% OFF 🎉</h1>
+        <h3>Best Quality earphone</h3>
+        <p><strong>Speciality:</strong> iPhone 17</p>
+        <p>Available in 4 Colors</p>
+
+        <div class="colors">
+            <div class="color black"></div>
+            <div class="color blue"></div>
+            <div class="color gold"></div>
+            <div class="color green"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- About -->
+<section id="about">
+    <h2>About SS Mobiles</h2>
+    <p>
+        Welcome to SS Mobiles. We provide the latest smartphones with the best
+        quality, affordable prices, and exciting offers for our customers.
+    </p>
+</section>
+
+<!-- Team -->
+<section id="team">
+    <h2>Our Team</h2>
+    <p>Our experienced team is always ready to help you choose the perfect mobile phone.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p><strong>Email:</strong> ssmobiles@gmail.com</p>
+    <p><strong>Contact:</strong> 0088992062</p>
+    <p><strong>Address:</strong> Kolhapur</p>
+</footer>
+
+</body>
+</html>
